@@ -1,0 +1,29 @@
+/*{
+    margin: 0px;
+    padding: 0px;
+}*/
+header{
+    display: flex;
+}
+
+.left{
+width: 20vw; 
+background-color: red;   
+}
+
+.right{
+    width: 80vw;
+    background-color: pink;
+}
+
+.top{
+    background-color: yellow;
+}
+
+.nav-bar{
+    background-color: blue;
+}
+
+footer{
+    display: flex;
+}
