@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Poppins:wght@300;500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -9,7 +14,7 @@ header{
 
 /*Top - left side*/
 .left{
-width: 20vw; 
+width: 25vw; 
 background-color: red;   
 }
 
@@ -71,7 +76,7 @@ background-color: red;
     font-size: 16px;
     margin-top: 15px;
 
-    background-color: #434040;
+    background-color: #A7A7A7;
     padding: 10px;
     border-radius: 8px;
     
@@ -80,16 +85,17 @@ background-color: red;
     font-size: 16px;
     margin-top: 15px;
 
-    background-color: #434040;
+    background-color: #A7A7A7;
     padding: 12px;
     border-radius: 8px;
 }
 .btn1{
-    border: 0.5px solid black;
+    border: 0.5px solid #A7A7A7;
+    background-color: #ffff;
     border-radius: 25px;
     padding: 10px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 520;
     margin-top: 15px;
 }
 
@@ -100,10 +106,12 @@ background-color: red;
 
 .box3{
     padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .box3 div{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .box3 span{
@@ -111,16 +119,81 @@ background-color: red;
     font-size: 12px;
     color: #b3b3b3;
 }
-/*Right - left side*/
+
+/*Top - Right side*/
 .right{
-    width: 80vw;
+    width: 75vw;
     background-color: pink;
 }
 
 .nav-bar{
     background-color: blue;
+    height: 64px;
+    padding: 10px;
 }
 
+.nav-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #212121;
+    color: #A7A7A7;
+}
+
+.nav-msg{
+    margin-right: 15px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}
+
+.login-bar{
+    letter-spacing: 1.2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn2{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    width: 110px;
+}
+
+/*Bottom - Right side*/
+.container{
+    display: flex;
+
+}
+.box{
+    width: 190px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #212121;
+    color: #ffff;
+    border-radius: 8px;
+}
+.box img{
+    width: 160px;
+    height: 130px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 8px;
+}
+.box p{
+    font-size: 14px;
+    margin-top: 10px;
+}
 footer{
     display: flex;
 }
