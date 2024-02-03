@@ -238,6 +238,12 @@ a:hover{
     border-style: none;
 }
 
+.btn2 a{
+    text-decoration: none;
+    color: orange;
+}
+
+
 /*Bottom - Right side*/
 .playlist{
     display: flex;
