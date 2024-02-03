@@ -28,7 +28,7 @@
 
 /*Hover effects on anchor contented*/
 a:hover{
-    font: 1em sans-serif;
+    font-size: 1em;
 }
 
 /*Hover effects on button*/
@@ -238,7 +238,7 @@ a:hover{
     border-style: none;
 }
 
-.btn2 a{
+.login-bar a{
     text-decoration: none;
     color: orange;
 }
@@ -322,6 +322,10 @@ a:hover{
     border-style: none;
 }
 
+.btn3 a{
+    text-decoration: none;
+    color: orange;
+}
 
 footer{
     background-color: #9d3da8;
